@@ -47,4 +47,12 @@ class Crm
     {
         return new Contact($this->teamleader);
     }
+
+    /**
+     * Get a list of company.
+     */
+    public function company()
+    {
+        return new Company($this->teamleader);
+    }
 }
